@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './screens/Home';
 import Details from './screens/Details';
 
+//setup and export type sefty
 export type RootStackParamList = {
   Home: undefined;
   Details: { productId: string }
