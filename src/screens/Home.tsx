@@ -13,7 +13,9 @@ const Home = ({ navigation }: HomeProps) => {
             <Text style={styles.smallText}>Home Screen</Text>
             <Button title='Go to details'
                 //onPress={() => navigation.navigate("Details")}
+
                 // onPress={() => navigation.navigate("Details", { productId: "51" })}
+
                 onPress={() => navigation.push('Details', {
                     productId: "51"
                 })}
